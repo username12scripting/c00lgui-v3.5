@@ -29038,7 +29038,7 @@ s = Instance.new("Sound",Workspace)
 s.SoundId = "rbxassetid://"..frame.Settings.Page1["Music ID"].TextBox.Text
 s.Volume = 1
 s.Looped = true
-s.Pitch = 0.3
+s.Pitch = 0.2
 s:Play()
 wait(.1)
 s:Play()
@@ -29587,7 +29587,7 @@ button = Instance.new("TextButton")
 	button.TextColor3 = whit
 	button.TextWrapped = true
 	button.MouseButton1Down:connect(function()
-	frame.Settings.Page1["Music ID"].TextBox.Text = 142930454	
+	frame.Settings.Page1["Music ID"].TextBox.Text = 99986264226275	
 	end)
 --
 button = Instance.new("TextButton")
