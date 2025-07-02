@@ -1,3 +1,11 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
 blak = Color3.new(0,0,0)
 rede = Color3.new(255/255,0/255,0/255)
 tef = "SourceSans"
@@ -29035,10 +29043,10 @@ v:Remove()
 end	
 end
 s = Instance.new("Sound",Workspace)
-s.SoundId = "rbxassetid://"..frame.Settings.Page1["Music ID"].TextBox.Text
+s.SoundId = "rbxassetid://"..frame.Settings.Page1["104570724610975"].TextBox.Text
 s.Volume = 1
 s.Looped = true
-s.Pitch = frame.Settings.Page1["Music Pitch"].TextBox.Text
+s.Pitch = frame.Settings.Page1["0.3"].TextBox.Text
 s:Play()
 wait(.1)
 s:Play()
